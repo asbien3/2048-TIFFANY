@@ -38,17 +38,23 @@ function caption(exp) {
 // Set Prices
 function prezzo(exp) {
   var prezzo = [];
-  prezzo[2]=70;
-  prezzo[4]=250;
-  prezzo[8]=420;
-  prezzo[16]=670;
-  prezzo[32]=1050;
-  prezzo[64]=2000;
-  prezzo[128]=4350;
-  prezzo[256]=8300;
-  prezzo[512]=11700;
-  prezzo[1024]=54000;
-  prezzo[2048]=149000;
+  prezzo[2]=35;
+  prezzo[4]=150;
+  prezzo[8]=320;
+  prezzo[16]=875;
+  prezzo[32]=1425;
+  prezzo[64]=2100;
+  prezzo[128]=4000;
+  prezzo[256]=7600;
+  prezzo[512]=14400;
+  prezzo[1024]=33000;
+  prezzo[2048]=71800;
+  prezzo[4096]=122500;
+  prezzo[8192]=212200;
+  prezzo[16384]=515500;
+  prezzo[32768]=948800;
+  prezzo[65536]=1625500;
+  prezzo[131072]=2888900;
 
   return prezzo[exp];
 }
